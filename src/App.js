@@ -1,12 +1,13 @@
 import './App.css';
 import Child from './components/Child';
-import Todo from './components/Todo';
+import Parent from './components/Parent';
+
 
 function App() {
   return (
     <div>
-      <Child />
-      <Todo/>
+      <Child/>
+      <Parent/>
     </div>
   );
 }
